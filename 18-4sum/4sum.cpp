@@ -5,13 +5,13 @@ public:
         int n = nums.size();
         vector<vector<int>> ans;
 
-        for (int i = 0; i < n - 3; i++) {
+        for (int i = 0; i < n ; i++) {
 
             // Skip duplicate values for i
             if (i > 0 && nums[i] == nums[i - 1])
                 continue;
 
-            for (int j = i + 1; j < n - 2; j++) {
+            for (int j = i + 1; j < n; j++) {
 
                 // Skip duplicate values for j
                 if (j > i + 1 && nums[j] == nums[j - 1])
