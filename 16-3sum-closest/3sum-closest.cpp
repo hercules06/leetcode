@@ -8,7 +8,7 @@ public:
         int min = INT_MAX;
         int ans = 0;
 
-        for(int i = 0; i < n - 2; i++) {
+        for(int i = 0; i < n; i++) {
             int j = i + 1;
             int k = n - 1;
 
